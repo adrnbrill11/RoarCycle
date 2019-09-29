@@ -1,0 +1,238 @@
+html{
+    background:  linear-gradient(#FC5E55, #FA4083);
+}
+
+body{
+    background-image: url('../images/image-lion-background.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+    color: white;
+    font-size: 1.125rem;
+}
+
+.container{
+    width: 1024px;
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.logo{
+    flex: 1;
+}
+
+nav{
+    flex: 3;
+    text-align: right;
+}
+
+.navbutton{
+    padding: 10px 20px 10px 20px;
+    border: 1px solid white;
+    display: inline-block;
+    position: relative;
+}
+
+.navbutton a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Playfair Display', serif;
+}
+
+.navbutton:hover .dropdown-box{
+    display: block;
+}
+
+.dropdown-box{
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: -1px;
+    width: 11rem;
+}
+
+.navbuttondrop{
+    border: 1px solid white;
+    padding: 10px 20px 10px 20px;
+    background: pink;
+    text-align: center;
+    font-size: 15px; 
+}
+
+.navbuttondrop:hover a{
+    font-size: 17px;
+    transition-duration: 0.5s;
+}
+
+main{
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+h1{
+    font-size: 3.25rem;
+    font-family: 'Playfair Display', serif;
+    padding: 10px;
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.432);
+}
+
+p{
+    line-height: 1.75rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 12px;
+}
+
+.herobox1{
+    flex: 2;
+    padding: 30px;
+}
+
+.button{
+    padding: 10px;
+    margin-top: 10px;
+    font-family: 'Playfair Display', serif;
+  
+}
+
+.button a{
+    color: #FA4083;
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 10px;
+    text-decoration: none;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.432);
+}
+
+.button a:hover{
+    padding: 20px;
+    transition-duration: 0.5s;
+}
+
+.herobox2{
+    flex: 1;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.card1{
+    background-image: url('../images/image-background-card1.jpg');
+    background-size: cover;
+    background-position: bottom;
+    min-height: 250px;
+    width: 30%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.432);
+}
+.card2{
+    background-image: url('../images/image-background-card2.jpg');
+    background-size: cover;
+    background-position: bottom;
+    min-height: 250px;
+    width: 30%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.432);
+}
+.card3{
+    background-image: url('../images/image-background-card3.jpg');
+    background-size: cover;
+    background-position: bottom;
+    min-height: 250px;
+    width: 30%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.432);
+}
+
+.card1, .card2, .card3{
+    padding: 30px 30px 20px 30px;
+    box-sizing: border-box;
+}
+
+h2{
+    font-size: 2rem;
+    font-family: 'Playfair Display', serif;
+    margin-top: 20px;
+}
+
+.cards p{
+    font-size: 0.85rem;
+    line-height: 1.2rem;
+}
+
+i{
+    font-size: 100px;
+}
+
+.cards a{
+    color: white;
+    text-decoration: none;
+}
+
+.testimonials{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.tbox{
+    width: 47%;
+    padding: 50px;
+    margin-top: 50px;
+    border: 1px solid white;
+    box-sizing: border-box;
+}
+
+.tbox :nth-child(2){
+    color: rgb(158, 12, 139);
+}
+
+
+/******* Contact Us ********/
+
+.main2{
+    min-height: 300px;
+}
+
+.inputwrapper{
+    margin-top: 20px;
+}
+
+input[type=text], input[type=email], textarea {
+    padding: 12px 20px;
+    width: 100%;
+    font-size: 0.85rem;
+    box-sizing: border-box;
+}
+
+.newLine{
+    display: block;
+    margin-bottom: 20px;
+}
+
+input[type=radio]{
+    margin-right: 10px;
+}
+
+input[type=submit]{
+    border: 1px solid white;
+    padding: 10px 20px 10px 20px;
+    background: pink;
+    text-align: center;
+    font-size: 15px; 
+    color: white;
+}
+
+form{
+    margin: 40px 0px;
+}
